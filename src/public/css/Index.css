@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dfrvbm0im/image/upload/v1690351271/lofiwall_vrww9q.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #588956;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #0b360d;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+p {
+    color: rgb(65, 19, 19)
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #588956;
+    margin: 15px;
+    padding: 5px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #0b360d;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linksContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #588956;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-description {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+
+.cardsContainer {
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+    width: 30%;
+    background-color: #588956;
+    border: 1px solid #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1f1e7163;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}

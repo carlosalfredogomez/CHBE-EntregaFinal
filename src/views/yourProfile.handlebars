@@ -1,0 +1,36 @@
+<section>
+  <div class="linksContainer">
+
+    <ul>
+      <h4>Safe User DTO Info</h4>
+      <p>Fullname: {{safeUserData.fullName}}</p>
+      <p>Email: {{safeUserData.email}}</p>
+      <p>Role: {{safeUserData.role}}</p>
+    </ul>
+
+    <div class="cardsContainer">
+      <h4>Upload Credential Files</h4>
+      <form action="/api/users/{{safeUserData._id}}/documents" method="post" enctype="multipart/form-data">
+        <ul>
+          <li>
+            <label for="profile"><h5>Profile image:</h5></label>
+            <input type="file" name="profile" required />
+          </li>
+          <li>
+            <label for="address"><h5>Address voucher:</h5></label>
+            <input type="file" name="address" required />
+          </li>
+          <li>
+            <label for="account"><h5>Account state voucher:</h5></label>
+            <input type="file" name="account" required />
+          </li>
+        </ul>
+        <input type="submit" />
+      </form>
+
+    </div>
+  </div>
+</section>
+<a href="/"> <button> Home </button></a>
+<button style="width: 120px" id="logout">Logout </button>
+<script src="/js/logout.js"></script>
